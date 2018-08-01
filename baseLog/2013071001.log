@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<!---京--->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>Yahoo!スポーツ - プロ野球</title>
+<meta name="description" content="巨人 vs ヤクルトのテキスト速報。一球速報、結果、セ・リーグ、パ・リーグの日程、順位、個人成績、プロ野球に関連した最新ニュース、写真ニュースなどの情報が満載な、Yahoo!スポーツ プロ野球サイトのテキスト速報ページです。">
+<meta name="keywords" content="テキスト速報,速報,中継,巨人,ヤクルト,プロ野球,野球">
+<link rel="stylesheet" href="http://i.yimg.jp/images/sports/baseball/npb/live/css/master-npb-live-common.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://i.yimg.jp/images/sports/baseball/npb/css/master-npb-common.css" type="text/css" media="all">
+
+
+<meta property="og:title"       content="Yahoo!プロ野球 - 2013年7月10日 巨人vs.ヤクルト テキスト速報" />
+<meta property="og:type"        content="website" />
+<meta property="og:url"         content="http://baseball.yahoo.co.jp/npb/game/2013071001/text" /> 
+<meta property="og:image"       content="http://i.yimg.jp/images/sports/promo/pc/facebook/baseball_76x76.png" />
+<meta property="og:site_name"   content="Yahoo!スポーツ" />
+<meta property="og:description" content="" />
+<meta property="og:locale"      content="ja_JP" />
+<meta property="fb:app_id"      content="215456371901325" />
+<link rel="apple-touch-icon" href="http://i.yimg.jp/images/sports/promo/pc/facebook/baseball.png">
+<script type="text/javascript" src="http://i.yimg.jp/images/sports/js/jquery-1.3.2.min.js"></script><script type="text/javascript" src="http://i.yimg.jp/images/sports/v1/js/sports.global-1.1.1.js"></script>
+</head>
+<body class="yj950-2">
+
+<div id="wrapper"><div id="contents-body" class="yjSNLive">
+<!--main start-->
+<div id="main">
+
+<!-- ローカルナビ -->
+<div id="ch-navi" class="clearfix mb5p">
+<ul class="clearfix">
+
+<li><span><a href="/npb/game/2013071001/top"">試合トップ</a></span></li><!--ナビアクティブ-->
+
+<li class="gray"><span><a>一球速報</a></span></li>
+
+
+<li class="on"><span><a>テキスト速報</a></span></li>
+
+
+<li><span><a href="/npb/game/2013071001/stats">投打詳細</a></span></li>
+
+ 
+<li><span><a href="http://rd.yahoo.co.jp/media/sports/baseball/npb/live/tab/comment/SIG=11uc3nasf/*http%3A//textream.yahoo.co.jp/rd/sports/npb/?game=2013071001">コメント</a></span></li>
+
+
+</ul>
+<em><a href="/npb/schedule/?date=20130710">7月10日（水）</a>巨人 vs. ヤクルト</em>
+</div>
+
+<!-- /ローカルナビ -->
+
+<!-- スコアボード -->
+<div id="yjSNLiveTextscoreboard">
+
+<div class="inner">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+<tbody><tr class="chs-title yjS">
+<th>&nbsp;</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>計</th>
+<th>安</th>
+<th>失</th>
+</tr>
+<tr class="yjMS">
+<th class="S">
+<b><a href="/npb/teams/2/">ヤクルト</a></b></th><!--チーム選択-->
+
+
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i1>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i2>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i3>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i4>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i5>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i6>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i7>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i8>2</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#i9>0</a>
+</td>
+<td class="sum">2</td>
+<td class="fwn">11</td>
+<td class="fwn">1</td>
+</tr>
+<tr class="yjMS">
+<th class="G">
+
+<b><a href="/npb/teams/1/">巨人</a></b></th><!--チーム選択-->
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii1>2</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii2>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii3>2</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii4>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii5>1</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii6>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii7>0</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii8>1</a>
+</td>
+<td>
+<a href=http://rd.yahoo.co.jp/media/sports/baseball/npb/live/sokuho/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text#ii9>X</a>
+</td>
+<td class="sum">6</td>
+<td class="fwn">11</td>
+<td class="fwn">0</td>
+</tr>
+
+</tbody></table>
+</div>
+
+
+<div class="navi clearfix">
+
+<div class="column-left">
+</div>
+
+<div class="column-right">
+
+<div class="reflesh clearfix">
+<ul class="clearfix">
+<li class="auto" title="自動更新"><a id="btn_auto" href="http://rd.yahoo.co.jp/media/sports/baseball/npb/live/auto/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text?manual=2"><i>自動更新</i></a></li>
+<li class="manual-on" title="手動更新"><a><i>手動更新</i></a></li>
+<li title="更新" class="btn_reflesh"><a href="http://rd.yahoo.co.jp/media/sports/baseball/npb/live/refresh/SIG=11ojq5mo3/*http%3A//baseball.yahoo.co.jp/npb/game/2013071001/text?manual=1"><i>更新</i></a></li>
+</ul>
+<em>自動更新：30秒</em>
+</div>
+
+</div>
+</div>
+
+</div>
+<!-- /スコアボード -->
+
+
+<!-- テキスト速報 -->
+<div class="yjSportsCommonTitle"><h3 class="yjS"><span><strong>テキスト速報</strong></span></h3></div><div id="yjSNLiveTextlive" class="yjMS">
+
+<div id="i1" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>1回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：試合開始</li>
+<li>2：<a href="/npb/player?id=1000132">山田</a>　ど真ん中のストレートを打つもセンターフライ 1アウト</li>
+<li>3：<a href="/npb/player?id=700020">上田</a>　センターへのヒット 1塁</li>
+<li>4：<a href="/npb/player?id=1200015">ミレッジ</a>　ファウルフライを村田(三)が捕球してバッターアウト 2アウト</li>
+<li>5：<a href="/npb/player?id=500480">バレンティン</a>　一度もバットを振ることなくフォアボールを選ぶ 1,2塁</li>
+<li>6：<a href="/npb/player?id=11992">畠山</a>　一打先制の場面で高めの変化球を打つもレフトフライ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:1</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="yads_67572_1441_position_01"></div><div id="ii1" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>1回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=800002">中井</a>　外角の真っ直ぐを打つもライトフライ 1アウト</li>
+<li>2：<a href="/npb/player?id=11541">谷</a>　内角のスライダーをセンターへ打ってヒット 1塁</li>
+<li>3：<a href="/npb/player?id=700003">坂本</a>　内角低めのスライダーを打つもセンターフライ 2アウト</li>
+<li>4：<a href="/npb/player?id=12049">阿部</a>　死球を受ける 1,2塁</li>
+<li>5：<b class="red"><a href="/npb/player?id=20182">村田</a>　2アウト1,2塁の1-1からセンターへの先制タイムリーツーベース！ 巨2-0ヤ 2塁</b></li>
+<li>6：<a href="/npb/player?id=11635">高橋由</a>　2アウト2塁からど真ん中のストレートを打つもセンターフライ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:<b class="red">2</b> 、 ヒット:<span class="red">2</span> 、 四死球:1</p>
+</div>
+</div>
+<div id="i2" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>2回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=11330">宮本</a>　外角の真っ直ぐを打つもサードゴロ 1アウト</li>
+<li>2：<a href="/npb/player?id=600011">川端</a>　センターへのツーベース 2塁</li>
+<li>3：<a href="/npb/player?id=900044">中村</a>　ランナー2塁からど真ん中の真っ直ぐを打つもセカンドゴロ 2アウト3塁</li>
+<li>4：<a href="/npb/player?id=900042">赤川</a>　ランナー3塁から内角のストレートを打つもショートゴロ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:0</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii2" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>2回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=900397">長野</a>　内角の変化球を打つもレフトフライ 1アウト</li>
+<li>2：<a href="/npb/player?id=11726">実松</a>　内角のスライダーを打つもショートゴロ 2アウト</li>
+<li>3：<a href="/npb/player?id=1000084">宮国</a>　内角のストレートに見逃し三振でバッターアウト！ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:0 、 ヒット:0 、 四死球:0</p>
+</div>
+</div>
+<div id="i3" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>3回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=1000132">山田</a>　サードへの内野安打 1塁</li>
+<li>2：<a href="/npb/player?id=700020">上田</a>　外角の真っ直ぐを打つもショートゴロ 1アウト2塁</li>
+<li>3：<a href="/npb/player?id=1200015">ミレッジ</a>　つまった打球はサードへの平凡なゴロとなる 2アウト</li>
+<li>4：<a href="/npb/player?id=500480">バレンティン</a>　外角のカーブを見送りフォアボールを選ぶ 1,2塁</li>
+<li>5：<a href="/npb/player?id=11992">畠山</a>　セカンドゴロ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:1</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii3" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>3回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=800002">中井</a>　内角のストレートをレフトへ打ってヒット 1塁</li>
+<li>2：<a href="/npb/player?id=11541">谷</a>　見事送りバントを決める 1アウト2塁</li>
+<li>3：<a href="/npb/player?id=700003">坂本</a>　外角のシンカーを打つもサードゴロ 2アウト</li>
+<li>4：<b class="red"><a href="/npb/player?id=12049">阿部</a>　ランナー2塁の1-0からライトスタンドへの２ランホームラン 巨4-0ヤ</b></li>
+<li>5：<a href="/npb/player?id=20182">村田</a>　外角のシュートに空振り三振 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:<b class="red">2</b> 、 ヒット:<span class="red">2</span> 、 四死球:0</p>
+</div>
+</div>
+<div id="i4" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>4回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=11330">宮本</a>　低めのストレートを打つもサードゴロ 1アウト</li>
+<li>2：<a href="/npb/player?id=600011">川端</a>　ライトへのヒットを放つ 1塁</li>
+<li>3：<a href="/npb/player?id=900044">中村</a>　内角の落ちる球に見逃し三振 2アウト</li>
+<li>4：<b class="green">赤川→代打:岩村</b></li>
+<li>5：<a href="/npb/player?id=11521">岩村</a>　ど真ん中のストレートを打つもレフトフライ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:0</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii4" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>4回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<b class="green">投手交代:赤川→村中　守備交代:ライト飯原</b></li>
+<li>2：<a href="/npb/player?id=11635">高橋由</a>　内角のストレートを打つもセカンドゴロ 1アウト</li>
+<li>3：<a href="/npb/player?id=900397">長野</a>　外角のチェンジアップを打つもセカンドフライ 2アウト</li>
+<li>4：<a href="/npb/player?id=11726">実松</a>　センターへのヒットで出塁 1塁</li>
+<li>5：<a href="/npb/player?id=1000084">宮国</a>　ど真ん中の真っ直ぐを打つもサードゴロ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:0 、 ヒット:<span class="red">1</span> 、 四死球:0</p>
+</div>
+</div>
+<div id="i5" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>5回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=1000132">山田</a>　外角のスライダーを打つもライトフライ 1アウト</li>
+<li>2：<a href="/npb/player?id=700020">上田</a>　内角のスライダーを打つもセカンドゴロ 2アウト</li>
+<li>3：<a href="/npb/player?id=1200015">ミレッジ</a>　外角のカーブを打つもライトフライ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:0、 四死球:0</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii5" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>5回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=800002">中井</a>　レフトへのツーベース 2塁</li>
+<li>2：<a href="/npb/player?id=11541">谷</a>　ランナー2塁からライトへのヒットを放つ 1,3塁</li>
+<li>3：<b class="red"><a href="/npb/player?id=700003">坂本</a>　0アウト1,3塁の0-1からセンターへのタイムリーヒット 巨5-0ヤ 1,2塁</b></li>
+<li>4：<a href="/npb/player?id=12049">阿部</a>　低めの落ちる球を打つも3-6-1のダブルプレー 2アウト3塁</li>
+<li>5：<a href="/npb/player?id=20182">村田</a>　ボテボテのピッチャーゴロ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:<b class="red">1</b> 、 ヒット:<span class="red">3</span> 、 四死球:0</p>
+</div>
+</div>
+<div id="i6" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>6回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<a href="/npb/player?id=600065">飯原</a>　外角のスライダーを打つもショートゴロ 1アウト</li>
+<li>2：<a href="/npb/player?id=11992">畠山</a>　センターへのヒットで出塁 1塁</li>
+<li>3：<a href="/npb/player?id=11330">宮本</a>　一度もバットを振ることなくフォアボールを選ぶ 1,2塁</li>
+<li>4：<a href="/npb/player?id=600011">川端</a>　ランナー1,2塁から外角のストレートを打つもレフトフライ 2アウト</li>
+<li>5：<a href="/npb/player?id=900044">中村</a>　一度もバットを振ることなくフォアボールを選ぶ 満塁</li>
+<li>6：<b class="green">村中→代打:田中浩</b></li>
+<li>7：<a href="/npb/player?id=500090">田中浩</a>　ランナーフルベースからど真ん中のストレートを打つもセカンドゴロ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:2</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii6" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>6回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<b class="green">ピッチャー村中に代わって直球に自信のある木谷がマウンドにあがる</b></li>
+<li>2：<a href="/npb/player?id=11635">高橋由</a>　空振りの三振を喫する 1アウト</li>
+<li>3：<a href="/npb/player?id=900397">長野</a>　低めの真っ直ぐを打つもライトフライ 2アウト</li>
+<li>4：<a href="/npb/player?id=11726">実松</a>　空振りの三振を喫する 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:0 、 ヒット:0 、 四死球:0</p>
+</div>
+</div>
+<div id="i7" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>7回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<b class="green">守備交代:センター立岡　守備変更:長野センター→ライト</b></li>
+<li>2：<a href="/npb/player?id=1000132">山田</a>　高めのストレートを打つもピッチャーゴロ 1アウト</li>
+<li>3：<a href="/npb/player?id=700020">上田</a>　低めの落ちる球をライトへ打ってヒット 1塁</li>
+<li>4：<a href="/npb/player?id=1200015">ミレッジ</a>　88キロの変化球を打つも5-4-3のダブルプレー 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">1</span>、 四死球:0</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii7" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>7回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<b class="green">ピッチャー木谷に代わって「チリガミ王子」七條がマウンドにあがる</b></li>
+<li>2：<b class="green">バッター宮国に代わり、真価を見せるボウカー</b></li>
+<li>3：<a href="/npb/player?id=1200006">ボウカー</a>　外角のシュートを打つもピッチャーゴロ 1アウト</li>
+<li>4：<a href="/npb/player?id=800002">中井</a>　内角のストレートを打つもサードフライ 2アウト</li>
+<li>5：<a href="/npb/player?id=11541">谷</a>　外角の落ちる球を見送りフォアボールを選ぶ 1塁</li>
+<li>6：<b class="green">1塁谷→代走:鈴木</b></li>
+<li>7：一塁走者鈴木:盗塁を試みるもアウト 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:0 、 ヒット:0 、 四死球:1</p>
+</div>
+</div>
+<div id="i8" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>8回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<b class="green">ピッチャー宮国に代わって速球でねじ伏せるアコスタがマウンドにあがる　守備変更:鈴木→レフト</b></li>
+<li>2：<a href="/npb/player?id=600065">飯原</a>　センターへポテンヒットを放つ 1塁</li>
+<li>3：<a href="/npb/player?id=11992">畠山</a>　内角のスライダーを見送り四球を選ぶ 1,2塁</li>
+<li>4：<a href="/npb/player?id=11330">宮本</a>　ランナー1,2塁からライトへのヒット 満塁</li>
+<li>5：<b class="green">1塁走者宮本に代わり、「勝利を呼ぶ韋駄天」三輪</b></li>
+<li>6：<b class="red"><a href="/npb/player?id=600011">川端</a>　0アウト満塁の3-2から押し出しのフォアボール 巨5-1ヤ 満塁</b></li>
+<li>7：<b class="green">投手交代:アコスタ→マシソン</b></li>
+<li>8：<b class="red"><a href="/npb/player?id=900044">中村</a>　ランナーフルベースからライトへの犠牲フライを放つ 巨5-2ヤ 1アウト1,3塁</b></li>
+<li>9：<b class="green">バッター七條に代わり、「ベテランの勝負勘」相川</b></li>
+<li>10：<a href="/npb/player?id=11343">相川</a>　粘りを見せるも9球目を空振り三振でバッターアウト 2アウト</li>
+<li>11：<a href="/npb/player?id=1000132">山田</a>　カウント0-2から151キロのストレートに空振り三振でバッターアウト 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点: <b class="red">2</b>、 ヒット:<span class="red">2</span>、 四死球:2</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+<div id="ii8" class="item G clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>8回裏</b>　巨人の攻撃</h3></div>
+<ul>
+<li>1：<b class="green">ピッチャー七條に代わって「スマート・フォーク」石山がマウンドにあがる　守備変更:三輪→サード</b></li>
+<li>2：<a href="/npb/player?id=700003">坂本</a>　外角のストレートを打つもライトフライ 1アウト</li>
+<li>3：<a href="/npb/player?id=12049">阿部</a>　内角のスライダーをセンターへ打ってヒット 1塁</li>
+<li>4：<b class="green">1塁走者阿部に代わり、好走塁を見せる寺内</b></li>
+<li>5：<a href="/npb/player?id=20182">村田</a>　センターへのヒット 1,2塁</li>
+<li>6：<b class="green">バッター立岡に代わり、「光る集中力」亀井</b></li>
+<li>7：<a href="/npb/player?id=500037">亀井</a>　内角のストレートに空振り三振 2アウト</li>
+<li>8：<a href="/npb/player?id=900397">長野</a>　川端(遊)のファンブルにより出塁する 満塁</li>
+<li>9：<b class="red"><a href="/npb/player?id=11726">実松</a>　ランナーフルベースの1-2からライトへのタイムリーヒット 巨6-2ヤ 満塁</b></li>
+<li>10：<b class="green">マシソン→代打:矢野</b></li>
+<li>11：<a href="/npb/player?id=20124">矢野</a>　外角のスライダーを打つもセカンドフライ 3アウトチェンジ</li>
+</ul>
+<div class="score yjS">
+<p>得点:<b class="red">1</b> 、 ヒット:<span class="red">3</span> 、 四死球:0</p>
+</div>
+</div>
+<div id="i9" class="item S clearfix"><!--チーム選択--><!--イニングid-->
+<div class="title"><h3 class="yjS"><b>9回表</b>　ヤクルトの攻撃</h3></div>
+<ul>
+<li>1：<b class="green">投手交代:マシソン→青木　守備変更:中井セカンド→ファースト　守備変更:寺内→セカンド　守備変更:亀井→ライト　守備変更:長野ライト→センター</b></li>
+<li>2：<a href="/npb/player?id=700020">上田</a>　セカンドゴロ 1アウト</li>
+<li>3：<b class="green">ピッチャー青木に代わって角度のあるボールを投げる笠原がマウンドにあがる</b></li>
+<li>4：<a href="/npb/player?id=1200015">ミレッジ</a>　セカンドへの内野安打 1塁</li>
+<li>5：<a href="/npb/player?id=600065">飯原</a>　レフトへのヒットを放つ 1,2塁</li>
+<li>6：<a href="/npb/player?id=11992">畠山</a>　高めのストレートを打つもレフトフライ 2アウト</li>
+<li>7：<b class="green">ピッチャー笠原に代わって「控えめな剛腕」西村がマウンドにあがる</b></li>
+<li>8：<a href="/npb/player?id=800014">三輪</a>　2アウト1,2塁からライトへのヒットを放つ 満塁</li>
+<li>9：<a href="/npb/player?id=600011">川端</a>　一発出れば同点の場面でセカンドゴロ ゲームセット</li>
+<li>10：試合終了</li>
+</ul>
+<div class="score yjS">
+<p>得点: 0、 ヒット:<span class="red">3</span>、 四死球:0</p>
+</div>
+      
+<div class="anker"><a href="#wrapper">ページトップへ</a></div>
+</div>
+</div>
+<!-- テキスト速報 -->
+
+<div id="yads_67572_1441_position_02"></div>
+</div><!--/#main-->
+<!--main end-->
+
+<!--sub start-->
+<div id="sub">
+<!-- SpaceID=0 robot -->
+<!--/#pos-lrec-->
+
+<!-- 他球団モジュール -->
+<div class="yjSNLiveCommonsubtitle"><h4 class="yjS"><span>7/10(水)　そのほかの試合</span></h4></div>
+<div id="yjSNLiveOthergame">
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr><td class='act'><dl>
+<dt><b>巨</b></dt>
+<dd><b>6</b> - 2</dd>
+<dt>ヤ</dt>
+</dl>
+<div>観戦中</div></td>
+<td class=''><a alt='そのほかの試合' href='/npb/game/2013071002/'><dl>
+<dt><b>Ｄ</b></dt>
+<dd><b>17</b> - 8</dd>
+<dt>広</dt>
+</dl>
+<div class="none">結果</div></a></td>
+<td class=''><a alt='そのほかの試合' href='/npb/game/2013071004/'><dl>
+<dt>楽</dt>
+<dd>1 - <b>4</b></dd>
+<dt><b>日</b></dt>
+</dl>
+<div class="none">結果</div></a></td>
+</tr><tr><td class=''><a alt='そのほかの試合' href='/npb/game/2013071005/'><dl>
+<dt><b>西</b></dt>
+<dd><b>3</b> - 2</dd>
+<dt>ソ</dt>
+</dl>
+<div class="none">結果</div></a></td>
+<td class=''><a alt='そのほかの試合' href='/npb/game/2013071006/'><dl>
+<dt>ロ</dt>
+<dd>3 - <b>4</b></dd>
+<dt><b>オ</b></dt>
+</dl>
+<div class="none">結果</div></a></td>
+<td class=''><a alt='そのほかの試合' href='/npb/game/2013071003/'><dl>
+<dt><b>神</b></dt>
+<dd><b>6</b> - 1</dd>
+<dt>中</dt>
+</dl>
+<div class="none">結果</div></a></td>
+</tr></table>
+</div>
+
+<!-- /他球団モジュール -->
+<!--打順-->
+<div class="yjSNLiveCommonsubtitle"><h4 class="yjS"><span>打順</span></h4></div>
+<div id="yjSNLiveBattinglist" class="clearfix">
+
+<table class="column-left" width=100% cellpadding=0 cellspacing=0 border=0>
+<tr class="teamborder">
+<th colspan=3 class="S">&nbsp;</th>
+<th colspan=3 class="G">&nbsp;</th>
+</tr>
+<tr class="teamlogo">
+<th colspan=3 class="S"><a href="/npb/teams/2/">ヤクルト</a></th>
+<th colspan=3 class="G"><a href="/npb/teams/1/">巨人</a></th>
+</tr>
+
+<tr>
+<td class="nm">1</td>
+<td>二</td>
+<td class="pn"><a href="/npb/player?id=1000132">山田哲人</a></td>
+<td class="nm">1</td>
+<td>一</td>
+<td class="pn"><a href="/npb/player?id=800002">中井大介</a></td>
+</tr>
+<tr>
+<td class="nm">2</td>
+<td>中</td>
+<td class="pn"><a href="/npb/player?id=700020">上田剛史</a></td>
+<td class="nm">2</td>
+<td>左</td>
+<td class="pn"><a href="/npb/player?id=11502">鈴木尚広</a></td>
+</tr>
+<tr>
+<td class="nm">3</td>
+<td>左</td>
+<td class="pn"><a href="/npb/player?id=1200015">ミレッジ</a></td>
+<td class="nm">3</td>
+<td>遊</td>
+<td class="pn"><a href="/npb/player?id=700003">坂本勇人</a></td>
+</tr>
+<tr>
+<td class="nm">4</td>
+<td>右</td>
+<td class="pn"><a href="/npb/player?id=600065">飯原誉士</a></td>
+<td class="nm">4</td>
+<td>二</td>
+<td class="pn"><a href="/npb/player?id=700010">寺内崇幸</a></td>
+</tr>
+<tr>
+<td class="nm">5</td>
+<td>一</td>
+<td class="pn"><a href="/npb/player?id=11992">畠山和洋</a></td>
+<td class="nm">5</td>
+<td>三</td>
+<td class="pn"><a href="/npb/player?id=20182">村田修一</a></td>
+</tr>
+<tr>
+<td class="nm">6</td>
+<td>三</td>
+<td class="pn"><a href="/npb/player?id=800014">三輪正義</a></td>
+<td class="nm">6</td>
+<td>右</td>
+<td class="pn"><a href="/npb/player?id=500037">亀井善行</a></td>
+</tr>
+<tr>
+<td class="nm act">7</td>
+<td class="act">遊</td>
+<td class="pn act"><a href="/npb/player?id=600011">川端慎吾</a></td>
+<td class="nm">7</td>
+<td>中</td>
+<td class="pn"><a href="/npb/player?id=900397">長野久義</a></td>
+</tr>
+<tr>
+<td class="nm">8</td>
+<td>捕</td>
+<td class="pn"><a href="/npb/player?id=900044">中村悠平</a></td>
+<td class="nm">8</td>
+<td>捕</td>
+<td class="pn"><a href="/npb/player?id=11726">実松一成</a></td>
+</tr>
+<tr>
+<td class="nm">9</td>
+<td>投</td>
+<td class="pn"><a href="/npb/player?id=1200075">石山泰稚</a></td>
+<td class="nm">9</td>
+<td>投</td>
+<td class="pn"><a href="/npb/player?id=400011">西村健太朗</a></td>
+</tr>
+
+</table>
+
+</div>
+
+<!--打順-->
+
+<!--ゲーム差-->
+<!--ゲーム差-->
+
+
+<!--球団情報-->
+
+<!-- /新IM -->
+
+</div><!--/#contents-body-->
+
+ 
+</div><!-- Facebook -->
+<div id="fb-root"></div>
+<!-- / Facebook -->
+</body>
+</html>

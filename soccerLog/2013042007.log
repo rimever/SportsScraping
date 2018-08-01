@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="description" content="Ｊ１、湘南対大分のスコア速報。ニッカンスポーツ・コムのＪリーグページです。" />
+<meta name="keywords" content="湘南,大分,スコア速報,Ｊ１,Ｊリーグ,サッカー,日刊スポーツ" />
+
+<title>Ｊ１ - スコア速報 湘南対大分 : nikkansports.com</title>
+
+
+
+<link rel="start" href="http://www.nikkansports.com/" title="ニッカンスポーツ・コムのトップ" />
+<link rel="chapter" href="http://www.nikkansports.com/baseball/top-baseball.html" title="野球" />
+<link rel="chapter" href="http://www.nikkansports.com/baseball/mlb/top-mlb.html" title="ＭＬＢ" />
+<link rel="chapter" href="http://www.nikkansports.com/soccer/top-soccer.html" title="サッカー" />
+<link rel="chapter" href="http://www.nikkansports.com/soccer/world/top-world.html" title="海外サッカー" />
+<link rel="chapter" href="http://www.nikkansports.com/sports/top-sports.html" title="スポーツ" />
+<link rel="chapter" href="http://www.nikkansports.com/sports/golf/top-golf.html" title="ゴルフ" />
+<link rel="chapter" href="http://www.nikkansports.com/battle/top-battle.html" title="格闘技" />
+<link rel="chapter" href="http://www.nikkansports.com/race/top-race.html" title="競馬" />
+<link rel="chapter" href="http://www.nikkansports.com/race/public_race/top-public_race.html" title="ボート競艇オート" />
+<link rel="chapter" href="http://www.nikkansports.com/entertainment/top-entertainment.html" title="芸能" />
+<link rel="chapter" href="http://www.nikkansports.com/general/top-general.html" title="社会" />
+<link rel="copyright" href="http://www.nikkansports.com/policy/copyright.html" title="著作権について" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 163dpi)" href="/mod/img/favicon-57.png" />
+<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 132dpi)" href="/mod/img/favicon-72.png" />
+<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 326dpi)" href="/mod/img/favicon-114.png" />
+
+<link rel="stylesheet" href="/mod/css/common.css" type="text/css" title="nikkansports.com CSS" media="all" />
+<link rel="stylesheet" href="/mod/css/common970.css" type="text/css" title="nikkansports.com CSS" media="all" />
+<link rel="stylesheet" href="/mod/css/data.css" type="text/css" title="nikkansports.com CSS" media="all" />
+<link rel="stylesheet" href="/mod/css/sc-score.css" type="text/css" title="nikkansports.com CSS" media="all" />
+<link rel="stylesheet" href="/mod/css/sc-score970.css" type="text/css" title="nikkansports.com CSS" media="all" />
+
+<script type="text/javascript" src="/mod/js/common.js"></script>
+<script type="text/javascript" src="/mod/js/jquery.js"></script>
+
+</head>
+
+
+<body id="soccer" class="j1 themeScore">
+
+
+
+<!-- +++++ スマートフォン版を表示 +++++ -->
+<style type="text/css">
+#smpView{
+	margin: 0;
+	padding:0;
+	width:100%;
+}
+#smpView a {
+	display: block;
+	margin: 0;
+	padding:0;
+	width:100%;
+	border: 1px solid rgba(0,0,0, .3);
+	height: 140px;
+	color: #ffffff;
+	font-size: 300%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 140px;
+	text-shadow: 0 -1px 0 rgba(0,0,0, .6);
+	background: #6b8bb2;
+	background: -webkit-gradient(linear,left top,left bottom,from(#e2cda0),color-stop(50%, #efcd62),color-stop(50%, #efbc22),to(#fbe225));
+	background: -webkit-linear-gradient(top, #e2cda0 0, #efcd62 50%, #efbc22 50%, #fbe225 100%);
+}
+</style>
+<script type="text/javascript"><!--
+agent = navigator.userAgent;
+if ((agent.indexOf("iPhone") != -1) || (agent.indexOf("Android") != -1)) {
+	function setandswitch() {
+		// 有効期限の作成
+		var nowtime = new Date().getTime();
+		var clear_time = new Date(nowtime + (60 * 60 * 24 * 1000 * 180));
+		var expires = clear_time.toGMTString();
+		document.cookie="nssmartphone=no; path=/; expires=" + expires + ";";
+	}
+
+	document.writeln('<div id="smpView">');
+	document.writeln('<a href="'+iphone_url+'" onclick="setandswitch();">スマートフォン版を表示</a>');
+	document.writeln('</div>');
+}
+//--></script>
+<!-- /+++++ スマートフォン版を表示 +++++ -->
+
+<noscript id="noJsMessage">
+お客様のブラウザはジャバスクリプト（JavaScript）に対応していないか無効になっています。詳しくは<a href="/policy/sitepolicy.html">サイトポリシー</a>をご覧ください。
+</noscript>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38763023-1']);
+  _gaq.push(['_setDomainName', 'nikkansports.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- +++++ ヘルプメニュー +++++ -->
+<div class="helpNavi">
+<p><a id="pagetop" name="pagetop" accesskey="q">日刊スポーツのニュースサイト、ニッカンスポーツ・コムです。</a></p>
+<ul>
+<li><a href="#globalnavi">サイトのナビゲーションへ移動</a></li>
+<li><a href="#maincontents">このページの本文へ移動</a></li>
+<li><a href="#topicsnavi">トピックスナビゲーションへ移動</a></li>
+<li><a href="#footernavi">フッターナビゲーションへ移動</a></li>
+</ul>
+</div>
+<!-- /+++++ ヘルプメニュー +++++ -->
+
+
+
+<!-- +++++ wrapper +++++ -->
+<div id="wrapper"><div id ="contents"><div id="mainWrap"><div id ="main"><div id="topNewsArea">
+<div id="NscoreContents" class="tableStyle">
+<h2 class="contentsTitle">湘南対大分</h2>
+
+
+<p class="upDate">2013年04月20日18時53分03秒更新</p>
+
+<!-- +++++ スコア速報ボックス +++++ -->
+<div id="N-Wrap">
+
+<div id="NscoreWrap">
+<div id="Nscore">
+
+<!--SCOREBOX-->
+<div class="scoreTwrap">
+<table border="0" class="scoreTable" summary="スコア速報">
+<tr>
+<td colspan="2" class="data">Ｊ１公式戦第７節&nbsp;20日16時04分</td>
+<td class="start">試合終了</td>
+<td colspan="2" class="place">Ｓｈｏｎａｎ ＢＭＷスタジアム平塚</td>
+</tr>
+<tr>
+<td class="team">湘南</td>
+<td class="winpoint">2</td>
+<td class="time">1－1<br />1－0</td>
+<td class="point">1</td>
+<td class="team2">大分</td>
+</tr>
+<tr>
+<td colspan="5">
+<p style="text-align:center; font-size:0.8em;">
+前半20分（湘南）永木<br />
+前半36分（大分）森島<br />
+後半10分（湘南）菊池<br />
+</p>
+</td>
+</tr>
+</table>
+</div>
+
+<!--/SCOREBOX-->
+
+<!-- SHOOTCOUNTS -->
+<table class="shootCountTable">
+<tr>
+<td class="shootCountL">
+<div style="width:52%;">
+<span>13</span>
+</div>
+</td>
+<td class="shootCountM">シュート数</td>
+<td class="shootCountR">
+<div style="width:32%;">
+<span>8</span>
+</div>
+</td>
+</tr>
+</table>
+
+<!-- /SHOOTCOUNTS -->
+
+
+<!-- +++++ メンバーボックス +++++ -->
+<div id="Nmember">
+
+<!--HOMEMEMBER-->
+<div class="homeMember">
+<table border="0" class="dataTable">
+<tr>
+<th colspan="5" class="team">湘南</th>
+</tr>
+<tr>
+<th><span>　</span></th>
+<th><span>No</span></th>
+<th><span>選手名</span></th>
+<th class="In"><span>IN</span></th>
+<th><span>Ｓ</span></th>
+</tr>
+<tr>
+<td>GK</td>
+<td>1</td>
+<td>阿部伸行</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>2</td>
+<td>鎌田翔雅</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>32</td>
+<td>⇒クォン・ハンジン</td>
+<td>45</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>22</td>
+<td>大野和成</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>30</td>
+<td>島村毅</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>5</td>
+<td>古林将太</td>
+<td>先発</td>
+<td>2</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>6</td>
+<td>永木亮太</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>7</td>
+<td>ハン・グギョン</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>8</td>
+<td>高山薫</td>
+<td>先発</td>
+<td>3</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>9</td>
+<td>キリノ</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>17</td>
+<td>⇒馬場賢治</td>
+<td>24</td>
+<td>1</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>10</td>
+<td>菊池大介</td>
+<td>先発</td>
+<td>3</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>28</td>
+<td>武富孝介</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>15</td>
+<td>⇒岩上祐三</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+</div>
+<!--/HOMEMEMBER-->
+
+<!--AWAYMEMBER-->
+<div class="awayMember">
+<table border="0" class="dataTable">
+<tr>
+<th colspan="5" class="team">大分</th>
+</tr>
+<tr>
+<th><span>　</span></th>
+<th><span>No</span></th>
+<th><span>選手名</span></th>
+<th class="In"><span>IN</span></th>
+<th><span>Ｓ</span></th>
+</tr>
+<tr>
+<td>GK</td>
+<td>1</td>
+<td>清水圭介</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>2</td>
+<td>児玉新</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>3</td>
+<td>阪田章裕</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DF</td>
+<td>18</td>
+<td>高木和道</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>8</td>
+<td>西弘則</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>24</td>
+<td>⇒木島悠</td>
+<td>13</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>17</td>
+<td>松本怜</td>
+<td>先発</td>
+<td>2</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>16</td>
+<td>⇒林丈統</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>19</td>
+<td>辻尾真二</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>30</td>
+<td>ロドリゴ・マンシャ</td>
+<td>先発</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>32</td>
+<td>宮沢正史</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>MF</td>
+<td>11</td>
+<td>⇒村井慎二</td>
+<td>30</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>13</td>
+<td>高松大樹</td>
+<td>先発</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FW</td>
+<td>20</td>
+<td>森島康仁</td>
+<td>先発</td>
+<td>4</td>
+</tr>
+</table>
+</div>
+<!--/AWAYMEMBER-->
+
+</div>
+<!-- /+++++ メンバーボックス +++++ -->
+
+
+
+<!--  +++++ テキスト速報ボックス +++++ -->
+
+
+<table border="0" class="timeTable" summary="経過情報">
+<tr>
+<td class="home"><strong>選手交代</strong>　武富がアウト、岩上がイン<br />【公式　後半49分】</td>
+<td class="eventTime">後半48分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><span class="Yellow">黄</span>島村がラフプレーにより警告<br />【公式　後半48分】</td>
+<td class="eventTime">後半47分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半44分</td>
+<td class="away"><span class="Yellow">黄</span>木島が異議により警告<br />【公式　後半45分】</td>
+</tr>
+<tr>
+<td class="home">古林の左足シュートは枠外</td>
+<td class="eventTime">後半38分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半35分</td>
+<td class="away"><strong>選手交代</strong>　松本怜がアウト、林がイン<br />【公式　後半36分】</td>
+</tr>
+<tr>
+<td class="home">馬場の右足シュートは枠外</td>
+<td class="eventTime">後半34分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半32分</td>
+<td class="away">松本怜の左足シュートは枠外</td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半31分</td>
+<td class="away"><strong>選手交代</strong>　西がアウト、木島がイン<br />【公式　後半32分】</td>
+</tr>
+<tr>
+<td class="home"><strong>選手交代</strong>　キリノがアウト、馬場がイン<br />【公式　後半21分】</td>
+<td class="eventTime">後半20分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半14分</td>
+<td class="away">松本怜の右足シュートは枠外</td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半14分</td>
+<td class="away"><strong>選手交代</strong>　宮沢がアウト、村井がイン<br />【公式　後半15分】</td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半11分</td>
+<td class="away">森島の右足シュートはゴールを阻まれる</td>
+</tr>
+<tr>
+<td class="home"><span class="goal">ゴール！！</span>
+<span class="goal">菊池の１号</span><br />「中央８メートルから右足ライナーで決める。アシストは古林」<br />【公式　後半10分】</td>
+<td class="eventTime"><span class="goal">後半09分</span></td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半07分</td>
+<td class="away">西の右足シュートは枠外</td>
+</tr>
+<tr>
+<td class="home">古林の右足シュートは枠外</td>
+<td class="eventTime">後半03分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">後半01分</td>
+<td class="away">森島の右足シュートは枠外</td>
+</tr>
+<tr>
+<td class="home"><strong>選手交代</strong>　鎌田がアウト、クォン・ハンジンがイン<br />【公式　後半00分】</td>
+<td class="eventTime">後半00分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">高山のヘディングシュートは枠外</td>
+<td class="eventTime">前半45分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">高山の右足シュートは枠外</td>
+<td class="eventTime">前半39分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime"><span class="goal">前半35分</span></td>
+<td class="away"><span class="goal">ゴール！！</span>
+<span class="goal">森島の２号</span><br />「中央14メートルからヘディングライナーで決める。アシストはロドリゴ・マンシャ」<br />【公式　前半36分】</td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">前半34分</td>
+<td class="away">ロドリゴ・マンシャのヘディングシュートは枠外</td>
+</tr>
+<tr>
+<td class="home"><br /></td>
+<td class="eventTime">前半27分</td>
+<td class="away">森島の右足シュートは枠外</td>
+</tr>
+<tr>
+<td class="home">ハン・グギョンの右足シュートは枠外</td>
+<td class="eventTime">前半23分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home"><span class="goal">ゴール！！</span>
+<span class="goal">永木の１号</span><br />「中央24メートルから右足ＦＫで直接ゴールを決める」<br />【公式　前半20分】</td>
+<td class="eventTime"><span class="goal">前半19分</span></td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">武富の右足シュートは枠外</td>
+<td class="eventTime">前半08分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">高山の右足シュートは枠外</td>
+<td class="eventTime">前半07分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">菊池の左足シュートは枠外</td>
+<td class="eventTime">前半07分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">キリノの右足シュートはゴールを阻まれる</td>
+<td class="eventTime">前半07分</td>
+<td class="away"><br /></td>
+</tr>
+<tr>
+<td class="home">菊池の左足シュートはゴールを阻まれる</td>
+<td class="eventTime">前半05分</td>
+<td class="away"><br /></td>
+</tr>
+</table>
+
+
+
+<!-- /+++++ テキスト速報ボックス +++++ -->
+
+
+
+</div>
+</div>
+
+
+</div>
+<!-- /+++++ スコア速報ボックス +++++ -->
+
+
+<!--KICK-TABLE-->
+<div class="kickStats">
+<table border="0" class="dataTable">
+<tr>
+<th class="team">湘南</th>
+<th class="team">　</th>
+<th class="team">大分</th>
+</tr>
+<tr>
+<td>13</td>
+<td>SHOOT</td>
+<td>8</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ＧＫ</td>
+<td>16</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ＣＫ</td>
+<td>6</td>
+</tr>
+<tr>
+<td>19</td>
+<td>ＤＦＫ</td>
+<td>17</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ＩＦＫ</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0</td>
+<td>ＰＫ</td>
+<td>0</td>
+</tr>
+<tr>
+<td>47</td>
+<td>KEEP%</td>
+<td>53</td>
+</tr>
+</table>
+
+</div>
+<!--/KICK-TABLE-->
+
+
+</div>
+<!-- /+++++ トップエリア +++++ -->
+
+
+
+</div>
+<!-- /+++++ コンテンツここまで +++++ -->
+
+
+
+<hr class="hide" />
+
+</div></div></div></div>i><a href="/entertainment/fortune/et-fortune.html" title="占い－０学占星術">占い－０学占星術</a></li>
+<li><a href="/entertainment/geinou-blog.html" title="芸能人ブログ新着記事">芸能人ブログ新着記事</a></li>
+<li><a href="/entertainment/award/ns-cinema/top-ns-cinema.html" title="映画大賞">映画大賞</a></li>
+<li><a href="/entertainment/award/ns-dramagp/top-ns-dramagp.html"title="ドラマＧＰ">ドラマＧＰ</a></li>
+
+</ul>
+
+
+<h3 class="fllGenre"><a href="/general/top-general.html" title="社会トップ">社会&nbsp;&raquo;</a></h3>
+<ul>
+<li><a href="/general/news/backnumber-general.html" title="社会ニュース一覧">ニュース</a></li>
+<li><a href="/general/news/top-photo.html" title="社会写真ニュース">写真ニュース</a></li>
+<li><a href="/general/society/top-society.html" title="社会">社会</a></li>
+<li><a href="/general/politics/top-politics.html" title="政治">政治</a></li>
+<li><a href="/general/economy/top-economy.html" title="経済">経済</a></li>
+<li><a href="/general/international/top-international.html" title="国際">国際</a></li>
+<li><a href="/general/animal/top-animal.html" title="動物">動物</a></li>
+
+</ul>
+
+
+</td>
+<td>
+
+
+<h3 class="fllGenre">ピックアップ</h3>
+<ul>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://douga.nikkansports.com/">動画</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://photos.nikkansports.com/">フォト</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://ical.nikkansports.com/">天気＆カレンダー</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://www.nikkansports.com/tool/pay/top-pay.html">有料サイト一覧</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://enjoy.nikkansports.com/blog/top-blog.html">築地ランチ日記</a></li>
+<li><a href="/fishing/top-fishing.html">釣り情報</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://enjoy.nikkansports.com/">エンジョイ・ニッカン</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://event.nikkansports.com/">イベント情報</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://univ.nikkansports.com/ ">大学スポーツニュース</a></li>
+
+
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://shopping.nikkansports.com/">ショッピング</a></li>
+<li><a target="_blank" title="別ウィンドウで開きます" href="http://housing.nikkansports.com/">住まい</a></li>
+
+<li><a target="_blank" title="別ウィンドウで開きます" href="/pachinko/top-pachinko.html">パチンコ・パチスロ</a></li>
+
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<!-- /+++++ フッターリンクリスト +++++ -->
+
+
+<!-- +++++ データ提供 +++++ -->
+<div id="otherCopyrightWrap">
+<h3 id="otherCopylightHeading">データ提供</h3>
+
+<div id="otherCopyrightList">
+
+<dl class="otherCopyright">
+<dt class="copyHd">日本プロ野球（ＮＰＢ）：</dt>
+<dd class="copyBdy">日刊編集センター（編集著作）／ＮＰＢ協力</dd>
+</dl>
+
+<dl class="otherCopyright">
+<dt class="copyHd">国内サッカー：</dt>
+<dd class="copyBdy">（株）日刊編集センター</dd>
+</dl>
+
+<dl class="otherCopyright">
+<dt class="copyHd">欧州サッカー：</dt>
+<dd class="copyBdy">（株）日刊編集センター／Datawiresport</dd>
+</dl>
+
+<dl class="otherCopyright">
+<dt class="copyHd">ＭＬＢ：</dt>
+<dd class="copyBdy">（株）日刊編集センター／（株）共同通信／STATS LLC</dd>
+</dl>
+
+</div>
+</div>
+<!-- /+++++ データ提供 +++++ -->
+
+
+</div>
+<!-- /+++++ フッターナビ +++++ -->
+
+
+
+<hr class="hide" />
+
+
+
+<!-- +++++ ヘルプメニュー +++++ -->
+<div class="helpNavi">
+<p><a id="footernavi" name="footernavi">ここからフッターナビゲーションです</a></p>
+<ul>
+<li><a href="#pagetop">このページの先頭へ戻る</a></li>
+<li><a href="#globalnavi">このサイトのナビゲーションへ戻る</a></li>
+<li><a href="#submenu">このページのサブメニューへ戻る</a></li>
+<li><a href="#maincontents">このページの本文へ戻る</a></li>
+<li><a href="#topicsnavi">トピックスナビゲーションへ戻る</a></li>
+</ul>
+</div>
+<!-- /+++++ ヘルプメニュー +++++ -->
+
+
+
+<div id="companyNaviWrap">
+<address>
+nikkansports.comに掲載の記事・写真・カット等の転載を禁じます。<br />
+すべての<a href="/policy/copyright.html" title="著作権について">著作権</a>は日刊スポーツ新聞社に帰属します。<br />
+(C)2013,Nikkan Sports News.<br />
+</address>
+
+<ul id="footerCompanyNavi">
+<li class="firstChild"><a href="/company/top-company.html">会社案内</a></li>
+<li><a href="http://saiyo.nikkansports.com/">採用情報</a></li>
+<li><a href="/advertising/top-advertising.html">広告ガイド</a></li>
+<li><a href="http://enjoy.nikkansports.com/koudoku/top-koudoku.html">新聞購読</a></li>
+<li><a href="/policy/sitepolicy.html">このサイトについて</a></li>
+<li><a href="/policy/privacypolicy.html">個人情報の取り扱い</a></li>
+<li><a href="/contact/contact.html">お問い合わせ</a></li>
+</ul>
+</div>
+
+
+
+</div>
+<!-- /+++++ フッター +++++ -->
+
+
+</div>
+<!-- /+++++ wrapper +++++ -->
+
+<script src="http://cache1.nipc.jp/js/beacon.js" type="text/javascript"></script>
+<script type="text/javascript">
+nsTracker();
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7784433-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'ja'}
+</script>
+
+
+
+</body>
+</html>
